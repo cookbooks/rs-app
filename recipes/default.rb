@@ -1,5 +1,4 @@
 # Cookbook Name:: app
-# Recipe:: default
 #
 # Copyright (c) 2011 RightScale Inc
 #
@@ -22,4 +21,5 @@
 # OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 # WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-right_link_tag "appserver:enabled=true"
+# Let others know we are an appserver
+right_link_tag "appserver:active=true"
